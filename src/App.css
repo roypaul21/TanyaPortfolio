@@ -736,11 +736,8 @@ body {
     font-size: 16px;
     font-family: montserrata; /* Make sure the font family is spelled correctly */
     font-weight: 500;
-    position: absolute;
-    top: 0;
-    left: 0;
     padding: 10px; /* Adjust padding as needed */
-    pointer-events: none;
+    pointer-events:visibleStroke;
 }
 
 .contact--section--btn{
