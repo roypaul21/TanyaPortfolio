@@ -28,7 +28,10 @@ export default function Contact(){
                 <div className="contact--section--content--box" data-aos="slide-left">
                    <div className="contact--section--input">
                        <div className="contact--box">
-                            <h1 className="contact--title">Get in Touch</h1>
+                            <div className="contact--txt--box">
+                                <h1 className="contact--title">Get in Touch</h1>
+                                <p>Got any ideas? Let's Talk!</p>
+                            </div>
                             <div className="contact--line"></div>
                        </div>
                        <div className="contact--input--box">

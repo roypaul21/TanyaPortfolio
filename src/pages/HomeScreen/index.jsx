@@ -14,9 +14,13 @@ export default function Home () {
     useEffect(()=> {
         AOS.init({offset: 100,
                   duration: 800,
-                  easing: 'ease-in',
+                  easing: 'linear',
                   delay: 100,
                   anchorPlacement: 'top-bottom',
+                  debounceDelay:50,
+                  once: false,
+                  mirror: true,
+
         })
     }, [])
     return (
