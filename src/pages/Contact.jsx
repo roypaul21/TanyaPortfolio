@@ -61,7 +61,7 @@ export default function Contact(){
                       
                    </div>
                    <div className="contact--section--img">
-                        <img className="contact--desktop--img--phone" src="./images/phone.png" alt="Phone"></img>
+                        <img className="contact--desktop--img--phone" src="./images/mobile.png" alt="Phone"></img>
                         <img className="contact--desktop--img--laptop" src="./images/laptop.png" alt="Laptop"></img>
                    </div>
                 </div>

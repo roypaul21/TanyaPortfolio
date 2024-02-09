@@ -20,7 +20,6 @@ export default function Home () {
                   debounceDelay:50,
                   once: false,
                   mirror: true,
-
         })
     }, [])
     return (
