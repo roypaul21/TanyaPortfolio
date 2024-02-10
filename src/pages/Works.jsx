@@ -8,7 +8,7 @@ export default function Works(){
         <section id="Works" className="works--section">
             <div className="works--section--container">
                  {/* Work 1 Right */}
-                 <div className="works--section--container--box--right" data-aos="slide-right">
+                 <div className="works--section--container--box--right" data-aos="fade-right">
                     <div className="works--section--content--box">
                         <img className="works--desktop--img" src="./images/works1.png" alt="Works"></img>
                         
@@ -40,7 +40,7 @@ export default function Works(){
                  </div>
                  
                  {/* Work 2 Left */}
-                 <div className="works--section--container--box--left" data-aos="slide-left">
+                 <div className="works--section--container--box--left" data-aos="fade-left">
                     <div className="works--section--content--box--left">
 
                         <div className="works--mobile--left">
@@ -74,7 +74,7 @@ export default function Works(){
                  </div>
 
                  {/* Work 3 Right */}
-                 <div className="works--section--container--box--right" data-aos="slide-right">
+                 <div className="works--section--container--box--right" data-aos="fade-right">
                     <div className="works--section--content--box">
                         <img className="works--desktop--img" src="./images/works3.png" alt="Works"></img>
                         

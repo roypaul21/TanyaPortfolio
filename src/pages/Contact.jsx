@@ -7,7 +7,7 @@ export default function Contact(){
     return(
         <section id="Contact" className="contact--section">
             <div className="contact--section--container">
-                <div className="contact--section--social--box" data-aos="slide-right">
+                <div className="contact--section--social--box" data-aos="fade-up">
                     <img className="contact--desktop--img--tanya" src="./images/port4.png" alt="Contac Me Tanya"></img>
                     <div className="contact--icon">
                         <a href="https://facebook.com" className="contact--icon-button">
@@ -25,7 +25,7 @@ export default function Contact(){
                     </div>
                 </div>
 
-                <div className="contact--section--content--box" data-aos="slide-left">
+                <div className="contact--section--content--box" data-aos="fade-up">
                    <div className="contact--section--input">
                        <div className="contact--box">
                             <div className="contact--txt--box">

@@ -52,14 +52,14 @@ function Navbar() {
                         </li>
                         <li>
                             <Link onClick={closeMenu} activeClass="navbar--active-content"
-                            spy={true} smooth={true} offset={50} duration={500} to="AboutMe"
+                            spy={true} smooth={true} offset={-70} duration={500} to="AboutMe"
                             className="navbar--content">
                                 About Me
                             </Link>
                         </li>
                         <li>
                             <Link onClick={closeMenu} activeClass="navbar--active-content"
-                            spy={true} smooth={true} offset={50} duration={500} to="Services"
+                            spy={true} smooth={true} offset={-70} duration={500} to="Services"
                             className="navbar--content">
                                 Services
                             </Link>

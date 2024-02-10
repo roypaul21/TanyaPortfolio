@@ -15,9 +15,9 @@ export default function Home () {
         AOS.init({offset: 100,
                   duration: 800,
                   easing: 'linear',
-                  delay: 100,
+                  delay: 50,
                   anchorPlacement: 'top-bottom',
-                  debounceDelay:50,
+                  debounceDelay:100,
                   once: false,
                   mirror: true,
         })
